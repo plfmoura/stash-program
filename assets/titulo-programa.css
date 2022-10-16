@@ -1,0 +1,58 @@
+.titulo-programa {
+    margin: 0 8.5rem 1rem 0;
+    display: flex; 
+    width: 60%;
+    height: 10%; 
+}
+
+.icone-titulo {
+    width: 10%;
+    height: 100%;
+}
+
+.titulo-programa h1 {
+    color: white;
+    position: relative;
+    padding-inline: 10px;
+    width: 100%;
+}
+
+.funcionalidades-animadas {
+    display: inline;
+    margin-left: 10px;
+}
+
+.funcionalidades-animadas span {
+    width: max-content;
+    position: absolute;
+    background-color: rgb(0, 72, 255);
+    padding-inline: 10px;
+    opacity: 0;
+    transform-origin: 10% 75%;
+    animation: palavrasAnimadas 12s var(--d) linear infinite;
+}
+
+@keyframes palavrasAnimadas {
+    5% {
+        opacity: 1;
+        
+    }
+
+    10%,
+    20% {
+        opacity: 1;
+        transform: rotate(3deg);
+    }
+
+    15% {
+        transform: rotate(-1deg);
+
+    }
+
+    25% {
+        opacity: 0;
+        transform: translateY(90px) rotate(10deg);
+    }
+    
+}
+

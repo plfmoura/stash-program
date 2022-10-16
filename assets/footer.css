@@ -1,0 +1,7 @@
+.rodape__assinatura {
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(152, 207, 255);
+}

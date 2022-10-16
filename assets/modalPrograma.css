@@ -1,0 +1,113 @@
+.modal__programa {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    opacity: 0;
+    pointer-events: none;
+    background-color: #000000bc;
+}
+
+.modal__programa.mostrar {
+    pointer-events: auto;
+    opacity: 1;
+}
+
+.modal__content {
+    background-color: rgb(0, 0 , 0, 0,3);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.modal__content.mostrar {
+    pointer-events: auto;
+    opacity: 1;
+}
+
+.programa__container {
+    max-width: 70%;
+    max-height: 100%;
+    width: 100%;
+    height: 80%;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.programa-titulo h3{
+    font-size: 18px;
+    margin-top: 1rem;
+}
+.programa__content {
+    background-color: rgb(70, 133, 189);
+    width: 95%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 1rem;
+}
+
+.inserir__textarea {
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.inserir__textarea #campo-texto {
+    resize: none;
+}
+
+.botoes__container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.resultado {
+    width: 40%;
+    height: 90%;
+    resize: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.resultado-content {
+    background-color: white;
+    border: 1px solid rgb(40, 40, 40);
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll; /*scroll na resposta*/
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#text {
+    color: red;
+}
+
+.btn-copiar {
+    width: 50%;
+}
+
+.btn-danger {
+    margin-bottom: 1rem;
+}
+
+
