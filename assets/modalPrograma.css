@@ -93,13 +93,9 @@
     max-width: 100%;
     width: 100%;
     height: 100%;
-    overflow-y: scroll; /*scroll na resposta*/
-    display: flex;
-    flex-wrap: wrap;
-}
-
-#text {
-    color: red;
+    white-space: pre-wrap;
+    overflow-x: hidden;
+    resize: none;
 }
 
 .btn-copiar {
