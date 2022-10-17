@@ -14,8 +14,6 @@ function codificarTexto(){
         var codigoLetra = textoOriginal.charCodeAt(i) - 65
         var deslocamento = (codigoLetra + 3) % 26
 
-        console.log(codigoLetra)
-        console.log(deslocamento)
         deslocamento += 65
 
         textoSaida.value += String.fromCharCode(deslocamento)
