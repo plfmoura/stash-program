@@ -1,0 +1,12 @@
+{
+  "name": "stash-program",
+  "version": "1.0.0",
+  "description": "projeto individual II",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pedro Moura",
+  "license": "ISC",
+  "type": "module"
+}
